@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <!-- Tervehdykset -->
+    <category>
+        <pattern>HEI</pattern>
+        <template>Hei! Mukava nähdä sinut. Haluatko treenivinkin vai hengitysharjoituksen?</template>
+    </category>
+
+    <category>
+        <pattern>MOI</pattern>
+        <template>Moi! Valmistaudutaanko päivän hyvinvointivinkkeihin?</template>
+    </category>
+
+    <!-- Kuulumiset -->
+    <category>
+        <pattern>MITEN VOIT</pattern>
+        <template>Voin hyvin, kiitos kysymästä! Entä sinä?</template>
+    </category>
+
+    <category>
+        <pattern>KUINKA PÄIVÄSI MENI</pattern>
+        <template>Kiitos kysymästä! Toivottavasti päiväsi on ollut hyvä. Haluatko rentoutusvinkin?</template>
+    </category>
+
+    <!-- Treenivinkit -->
+    <category>
+        <pattern>ANNA TREENIVINKKI</pattern>
+        <template>Yksi tehokas harjoitus on keskivartalon vahvistus: tee 3 x 15 vatsalihasliikettä ja 3 x 30 sekunnin lankku.</template>
+    </category>
+
+    <category>
+        <pattern>HALUAN VAHVISTAA KESKIVARTALOA</pattern>
+        <template>Lankku on erinomainen! Aloita 30 sekuntia ja lisää aikaa vähitellen. Muista myös venytellä loppuliikkeissä.</template>
+    </category>
+
+    <category>
+        <pattern>HALUAN KUNTOILLA KOTONA</pattern>
+        <template>Hyvä idea! Tee kyykkyjä, punnerruksia ja vatsoja. Voit tehdä 3 kierrosta, 10–15 toistoa kutakin liikettä.</template>
+    </category>
+
+    <!-- Hengitysharjoitukset / rentoutuminen -->
+    <category>
+        <pattern>NÄYTÄ HENGITYSHARJOITUS</pattern>
+        <template>Kokeile 4-7-8 -hengitystä: hengitä nenän kautta 4 sekuntia, pidätä 7 sekuntia ja uloshengitä 8 sekuntia. Toista 4 kertaa.</template>
+    </category>
+
+    <category>
+        <pattern>KUINKA RENTOUTUA</pattern>
+        <template>Voit sulkea silmät ja keskittyä hitaaseen hengitykseen. Kuvittele rauhallinen paikka mielessäsi ja hengitä syvään 5–10 kertaa.</template>
+    </category>
+
+    <!-- Motivaatio -->
+    <category>
+        <pattern>ANNA MOTIVAATIOLAINAUS</pattern>
+        <template>“Pienet askeleet johtavat suuriin muutoksiin.” Muista edetä omaan tahtiin.</template>
+    </category>
+
+    <!-- Kiitokset ja lopetus -->
+    <category>
+        <pattern>KIITOS</pattern>
+        <template>Ole hyvä! Muista pitää huolta itsestäsi.</template>
+    </category>
+
+    <category>
+        <pattern>NÄHDÄÄN</pattern>
+        <template>Nähdään! Muista venytellä ja rentoutua päivän päätteeksi.</template>
+    </category>
+
+    <!-- Tuntemattomat viestit -->
+    <category>
+        <pattern>*</pattern>
+        <template>Anteeksi, en ymmärtänyt. Voitko kirjoittaa uudelleen tai kysyä treenivinkkiä / rentoutumista?</template>
+    </category>
+
+</aiml>

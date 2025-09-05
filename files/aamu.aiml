@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <category>
+    <pattern>HUOMENTA</pattern>
+    <template>Huomenta! Toivottavasti nukuit hyvin.</template>
+  </category>
+
+  <category>
+    <pattern>MOI</pattern>
+    <template>Moi! Miten päiväsi on alkanut?</template>
+  </category>
+
+  <category>
+    <pattern>MITÄ KUULUU</pattern>
+    <template>Minulle kuuluu hyvää, kiitos! Entä sinulle?</template>
+  </category>
+
+  <category>
+    <pattern>HALUAN KAHVIA</pattern>
+    <template>Annan sinulle virtuaalisen kahvin ☕. Haluatko vahvaa vai mietoa?</template>
+  </category>
+
+  <category>
+    <pattern>HALUAN TEETÄ</pattern>
+    <template>Tässä sinulle kupponen kuumaa teetä 🍵. Minkä makuista haluaisit?</template>
+  </category>
+
+  <category>
+    <pattern>KUKA OLET</pattern>
+    <template>Olen harjoitusbotti. Autan sinua YAMK-opintojen testikeskusteluissa.</template>
+  </category>
+
+  <category>
+    <pattern>KIITOS</pattern>
+    <template>Ole hyvä! Ilo olla avuksi. ☀️</template>
+  </category>
+
+  <category>
+    <pattern>HEIPPA</pattern>
+    <template>Näkemiin ja mukavaa päivää! 🌼</template>
+  </category>
+
+</aiml>
